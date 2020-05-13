@@ -1,9 +1,11 @@
 function hi(name = 'lam', lang = 'vn') {
 
-  if(lang = 'en') {
-    return `Hello, ${name}`
+  if(lang == 'en') {
+    console.log(`Hello, ${name}`);
+    return ;
   }
 
-  return `Xin chao, ${name}`
+  console.log(`xin chao, ${name}`);
+  return;
 }
-hi();
+hi('L0ong');
